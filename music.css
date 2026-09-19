@@ -1,0 +1,8 @@
+/* Isolated music controls: the invitation's existing styles are unchanged. */
+.music-control{position:fixed;right:max(14px,env(safe-area-inset-right));bottom:max(14px,env(safe-area-inset-bottom));z-index:20}
+#music-toggle{display:flex;align-items:center;justify-content:center;gap:9px;min-height:44px;border:1px solid #d6bdd9;border-radius:30px;background:#fff9f5f5;color:#704580;padding:10px 16px;box-shadow:0 3px 15px #51385e22;font:600 13px 'DM Sans',Arial,sans-serif;cursor:pointer}
+#music-toggle:focus-visible{outline:3px solid #704580;outline-offset:4px}
+#music-icon{font-size:20px;line-height:1;width:18px;text-align:center}
+.music-credit{max-width:520px;margin:0 auto;padding:0 20px 85px;text-align:center;font-size:12px;color:#7e647f;line-height:1.8}
+.music-credit a{color:inherit;text-underline-offset:3px}
+@media print{.music-control,.music-credit{display:none!important}}
